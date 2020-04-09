@@ -1,0 +1,112 @@
+Question 1:
+print("Nice to meet you", "John")
+
+a) Nice to meet you
+John
+b) Nice to meet youJohn
+c) Nice to meet you John
+d) John Nice to meet you
+
+
+Question 2:
+a = 7
+b = 8
+c = 2
+print(a+b*c)
+
+a) 30
+b) 17
+c) 2
+d) 23
+
+
+Question 3:
+a = 2
+b = 4
+if a > b:
+    print(a, ">", b)
+else:
+    print(a, "<", b)
+
+a) a > b
+b) 4 > 2
+c) 2 < 4
+d) a < b
+
+
+Question 4:
+a = 0
+for i in range(10):
+    a = a + 2
+print(a)
+
+a) 10
+b) 20
+c) 18
+d) 22
+
+
+Question 5:
+text = "abcdefghij"
+text2 = text[0:3]
+print("Answer is", text2)
+
+a) Answer is abc
+b) Answer is abcdefghij
+c) Answer is abcd
+d) Answer is efghij
+
+
+Question 6:
+text = "123456789"
+print(2*text[0::2])
+
+a) 123456789
+b) 24682468
+c) 13579
+d) 1357913579
+
+
+Question 7:
+a = [1,2,3,4,5,6]
+print(a[2])
+
+a) 1
+b) 2
+c) 3
+d) 4
+
+
+Question 8:
+a = ["a", 2, False]
+a.append("boy")
+print(a)
+
+a) Error!
+b) "a"
+c) ['a', 2, False, 'boy']
+d) "boy"
+
+
+Question 9:
+d = {}
+d[1] = "one"
+d[2] = "two"
+d[3] = "three"
+print(d)
+
+a) 1,2,3
+b) {1: 'one', 2: 'two', 3: 'three'}
+c) "one", "two", "three"
+d) {1one, 2two, 3three}
+
+
+Question 10:
+d = {"one":"uno", "two":"dos", "yes":"si"}
+print(d.get("three", "ups"))
+
+a) uno
+b) ups
+c) three
+d) tres
+
